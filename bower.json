@@ -1,0 +1,26 @@
+{
+  "name": "angular-inapppurchase",
+  "main": "./src/angular-inapppurchase.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Junker/angular-inapppurchase",
+  "authors": [
+    "Dmitry Kosenkov <dk-junker at ya.ru>"
+  ],
+  "description": "AngularJS module for Cordova InAppPurchase Plugin",
+  "keywords": [
+    "angular",
+    "angularjs",
+    "purchase",
+    "inapppurchase",
+    "cordova",
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "example",
+    "test",
+    "tests"
+  ]
+}
