@@ -61,7 +61,7 @@
 			{
 				var deferred = $q.defer();
 
-				inAppPurchase.subscribe(productType, receipt, signature).then(
+				inAppPurchase.consume(productType, receipt, signature).then(
 					function(data) 
 					{
 						deferred.resolve(data);
