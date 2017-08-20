@@ -20,7 +20,7 @@
 				);
 
 				return deferred.promise;
-			};
+			},
 
 			buy: function(productId)
 			{
@@ -38,7 +38,7 @@
 				);
 
 				return deferred.promise;
-			};
+			},
 
 			subscribe: function(productId)
 			{
@@ -56,7 +56,7 @@
 				);
 
 				return deferred.promise;
-			};
+			},
 
 			consume: function(productType, receipt, signature)
 			{
@@ -74,7 +74,7 @@
 				);
 
 				return deferred.promise;
-			};
+			},
 
 			restorePurchases: function()
 			{
@@ -92,7 +92,7 @@
 				);
 
 				return deferred.promise;
-			};
+			},
 
 			getReceipt: function()
 			{
@@ -110,8 +110,8 @@
 				);
 
 				return deferred.promise;
-			};
+			}
 		};
-	}])
+	}]);
 
 })();
