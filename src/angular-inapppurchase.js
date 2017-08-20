@@ -2,8 +2,7 @@
 
 	angular.module('inAppPurchase', []).factory('$inAppPurchase', ['$q', function ($q) 
 	{
-		return 
-		{
+		return {
 			getProducts: function(productIds)
 			{
 				var deferred = $q.defer();
