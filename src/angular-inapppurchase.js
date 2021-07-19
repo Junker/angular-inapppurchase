@@ -21,11 +21,11 @@
 				return deferred.promise;
 			},
 
-			buy: function(productId)
+			buy: function(productId, payload = "")
 			{
 				var deferred = $q.defer();
 
-				inAppPurchase.buy(productId).then(
+				inAppPurchase.buy(productId, payload).then(
 					function(data) 
 					{
 						deferred.resolve(data);

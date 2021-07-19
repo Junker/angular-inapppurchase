@@ -2,7 +2,7 @@
 AngularJS module for Cordova InAppPurchase Plugin
 
 ## Requirements
-cordova plugin: cordova-plugin-inapppurchase
+cordova plugin: cordova-plugin-inapppurchase ([Junker/cordova-plugin-inapppurchase](https://github.com/Junker/cordova-plugin-inapppurchase))
 
 ## Installation
 ```shell
