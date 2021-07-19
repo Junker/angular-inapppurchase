@@ -37,4 +37,4 @@ angular.module('myapp', ['inAppPurchase'])
 ```
 
 ## Documentation
-[https://github.com/AlexDisler/cordova-plugin-inapppurchase]
+[https://github.com/Junker/cordova-plugin-inapppurchase]
